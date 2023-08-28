@@ -1,0 +1,63 @@
+#container-roles{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 10px;
+    margin-right: 20px;
+}
+.container-heroes{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid black;
+    border-radius:30px;
+    column-gap: 5px;
+}
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: small;
+    text-align: center;
+}
+body{
+    background: url("https://p4.wallpaperbetter.com/wallpaper/607/676/957/video-games-overwatch-overwatch-2-tracer-overwatch-hd-wallpaper-preview.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+.rol{
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    border-radius:30px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+.cajita-heroe{
+    background-color: rgb(214, 156, 89);
+    border: 5px solid black;
+    border-radius: 30px;
+    margin: 5px;
+    width: 175px;
+    height: 190px;
+    padding: 0;
+}
+.cajita-heroe img{
+    padding: 5%;
+    margin: 0;
+    width: 125px;
+}
+.cajita-heroe h1{
+    padding: 0;
+    margin: 0;
+}
+.cajita-no{
+    background-color: rgb(48, 48, 48);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    margin: 5px;
+    width: 175px;
+    height: 190px;
+    padding: 0;
+}
+.cajita-no img{
+    margin-top: 12px;
+    width: 125px;
+}
